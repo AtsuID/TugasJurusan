@@ -1,0 +1,58 @@
+
+.brown {
+    color: brown;
+}
+
+.gray {
+    background-color: rgb(226, 225, 225);
+}
+
+.white { 
+    background-color: white;
+}
+
+.hover {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.hover:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.skill-description h5 {
+    font-size: medium;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+
+.w-10 {
+    width: 105px;
+}
+
+@media (max-width: 576px) {
+    .row { 
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        gap: 1rem;
+    }
+}
